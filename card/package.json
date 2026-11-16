@@ -1,0 +1,16 @@
+{
+  "name": "about-jerry-card",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "make": "node make-card.ts",
+    "check": "node check.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "2.6.2",
+    "@types/node": "^22.18.0",
+    "typescript": "^5.9.0"
+  }
+}
