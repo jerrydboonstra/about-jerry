@@ -1,0 +1,20 @@
+{
+  "name": "about-jerry",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "check": "npm run check:html && npm run check:meta && npm run check:links",
+    "check:links": "node check/links.ts",
+    "check:html": "node check/html.ts",
+    "check:meta": "node check/meta.ts",
+    "shots": "bash tools/shots.sh"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "html-validate": "^10.0.0",
+    "typescript": "^5.9.0"
+  }
+}
