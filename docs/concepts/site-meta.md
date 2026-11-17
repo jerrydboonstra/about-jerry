@@ -13,6 +13,7 @@ The page uses these values as written. Change them here, in a reviewed change, n
 - Location: Los Angeles
 - Email and profile links: the ones in the `contact` concept.
 - Theme colour: `#F3F1EB`
+- Published: 2026-11-16
 
 ## Related
 
